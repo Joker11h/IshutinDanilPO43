@@ -1,0 +1,9 @@
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.dostates
+.vs/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
