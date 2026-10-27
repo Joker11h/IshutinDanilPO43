@@ -16,6 +16,7 @@ namespace StoreLinqApp
                 cmd.ExecuteNonQuery();
             }
             using var checkCmd = new SqliteCommand("SELECT COUNT(*) FROM OnlineOrders;", connection);
+
             long count = (long)(checkCmd.ExecuteScalar() ?? 0);
             if (count == 0)
             {
